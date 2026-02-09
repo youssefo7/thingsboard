@@ -18,7 +18,7 @@ mvn test -pl application -Dsurefire.excludes='**/nosql/*Test.java' -Dtest='org.t
 mvn test -pl application -Dsurefire.excludes='**/nosql/*Test.java' -Dtest='org.thingsboard.server.transport.lwm2m.**' -DforkCount=6 -Dparallel=packages -Dsurefire.rerunFailingTestsCount=2 -Dsurefire.failOnFlakeCount=5
 mvn test -pl application -Dsurefire.excludes='**/nosql/*Test.java' -Dtest='**/*TestSuite.java'                        -DforkCount=4 -Dparallel=classes  -Dsurefire.rerunFailingTestsCount=2 -Dsurefire.failOnFlakeCount=5
 
-#the rest of application tests
+#the rest of application tests!
 mvn test -pl application -Dtest='
 !**/nosql/*Test.java,
 !org.thingsboard.server.controller.**,
