@@ -15,7 +15,6 @@
 #
 
 name: License header format
-
 on:
   push:
     branches:
